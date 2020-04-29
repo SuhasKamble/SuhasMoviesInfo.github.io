@@ -7,7 +7,7 @@ let output = document.getElementById('output')
 
 searchBtn.addEventListener('click',()=>{
 searchTxt=searchTxt.value ;
-let url=`http://www.omdbapi.com/?apikey=5e0a7faa&s=${searchTxt}`
+let url=`https://www.omdbapi.com/?apikey=5e0a7faa&s=${searchTxt}`
 
 fetch(url)
     .then((response)=>{
@@ -54,7 +54,7 @@ function getMovies(){
   let  moviesid =sessionStorage.getItem("movieId")
 
     
-    let api = `http://www.omdbapi.com/?apikey=5e0a7faa&i=${moviesid}`
+    let api = `https://www.omdbapi.com/?apikey=5e0a7faa&i=${moviesid}`
     fetch(api)
     .then((response)=>{
         return response.json()
