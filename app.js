@@ -21,9 +21,9 @@ fetch(url)
         moviesInfo.forEach(function(element, index) {
             console.log(element)
 
-            let fetched = `<div class="card mx-3 my-3 movies" style="width: 18rem;">
+            let fetched = `<div class="card mx-3 my-3 " >
             <img src="${element.Poster}"  class="card-img-top added" alt="...">
-            <div class="card-body">
+            <div class="card-body" movies>
               <h5 class="card-title">${element.Title}</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary" onclick="movieSelected('${element.imdbID}')" >Movie Details</a>

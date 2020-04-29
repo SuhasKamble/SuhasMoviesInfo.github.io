@@ -15,9 +15,11 @@ body{
 }
 
 @media only screen and (max-width: 600px){
-    .container{
-        padding-left: 50px;
-        background-color: #333;
-    }
+.movies{
+    width: 100%;
+}
+.added{
+    width: 100%;
+}
    
 }
