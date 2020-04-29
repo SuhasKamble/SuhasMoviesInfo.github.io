@@ -32,5 +32,7 @@ body{
     top: 237px;
     left: 315px;
 }
-   }
+.container p{
+    color: black;
 }
+   }
