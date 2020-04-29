@@ -14,7 +14,7 @@ body{
     width: 287px;
 }
 
-.container h3,#para{
+.para{
     color: white;
 }
 
@@ -35,4 +35,9 @@ body{
 .container p{
     color: black;
 }
+
+.para{
+    color: white;
+}
+
    }
