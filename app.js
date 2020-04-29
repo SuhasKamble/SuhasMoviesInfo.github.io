@@ -2,6 +2,10 @@ let searchTxt = document.getElementById('searchTxt');
 let searchBtn = document.getElementById('searchBtn');
 let info = document.getElementById('info');
 let output = document.getElementById('output')
+let reload = document.getElementById('reload')
+reload.addEventListener('click',()=>{
+  location.reload()
+})
 
 
 

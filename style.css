@@ -14,6 +14,10 @@ body{
     width: 287px;
 }
 
+.container h3,.container p{
+    color: white;
+}
+
 @media only screen and (max-width: 600px){
 .movies{
     width: 100%;
@@ -21,5 +25,12 @@ body{
 .added{
     width: 100%;
 }
+   i{
    
+    color: black;
+    position: absolute;
+    top: 237px;
+    left: 315px;
+}
+   }
 }
