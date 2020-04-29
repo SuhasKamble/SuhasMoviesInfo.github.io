@@ -25,7 +25,7 @@ fetch(url)
             <img src="${element.Poster}"  class="card-img-top added" alt="...">
             <div class="card-body" movies>
               <h5 class="card-title">${element.Title}</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
               <a href="#" class="btn btn-primary" onclick="movieSelected('${element.imdbID}')" >Movie Details</a>
             </div>
           </div>`
