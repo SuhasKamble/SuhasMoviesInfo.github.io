@@ -86,7 +86,7 @@ function getMovies(){
     <p class="card-text">${data.Released}</p>
     <h5 class="card-title">imdbVotes</h5>
     <p class="card-text">${data.imdbVotes}</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="index.html" class="btn btn-primary">Back</a>
   </div>
 </div>`
 
