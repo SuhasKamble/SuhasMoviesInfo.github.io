@@ -17,6 +17,9 @@ body{
 .para{
     color: white;
 }
+.container h3{
+    color: white;
+}
 
 @media only screen and (max-width: 600px){
 .movies{
@@ -36,8 +39,6 @@ body{
     color: black;
 }
 
-.para{
-    color: white;
-}
+
 
    }
